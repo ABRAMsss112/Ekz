@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies Abramiv</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <h1>Movies Abramiv</h1>
+  <a href="https://www.instagram.com/a.b.r.a.m.i.v_/" target="_blank" rel="noopener">
+    <button class="subscribe">Subscribe</button>
+  </a>
+</header>
+
+  <nav>
+    <p>Cravicroe</p>
+  </nav>
+
+  <main>
+    <section class="releases">
+      <h2>New Releases</h2>
+      <p>Premieres</p>
+      <div class="movie-grid">
+        <!-- 8 постерів -->
+        <div class="movie-card">
+          <img src="MOVIE 1.jpeg" alt="Битва Світів">
+          <div class="overlay">Watch</div>
+          <h3>Битва Світів</h3>
+          <p>Sweet TV</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 2.jpg" alt="Movie 2">
+          <div class="overlay">Watch</div>
+          <h3>Черкаси</h3>
+          <p>Sweet TV</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 3.jpg" alt="Movie 3">
+          <div class="overlay">Watch</div>
+          <h3>Довбуш</h3>
+          <p>Sweet TV</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 4.jpg" alt="Movie 4">
+          <div class="overlay">Watch</div>
+          <h3>Тупий і ще тупіший</h3>
+          <p>KyivstarTV</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 5.jpg" alt="Movie 5">
+          <div class="overlay">Watch</div>
+          <h3>My little pony</h3>
+          <p>Малятко ТВ</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 6.jpg" alt="Movie 6">
+          <div class="overlay">Watch</div>
+          <h3>Губка Боб у кіно</h3>
+          <p>Піксель ТВ</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 7.jpg" alt="Movie 7">
+          <div class="overlay">Watch</div>
+          <h3>Кунг Фу Панда</h3>
+          <p>Sweet TV</p>
+        </div>
+        <div class="movie-card">
+          <img src="MOVIE 8.jpg" alt="Movie 8">
+          <div class="overlay">Watch</div>
+          <h3>Кунг Фу Кролик</h3>
+          <p>Sweet TV</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#">Terms of use</a>
+    <span>&copy; <span id="year"></span></span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
